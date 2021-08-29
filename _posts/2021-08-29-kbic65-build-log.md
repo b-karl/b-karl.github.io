@@ -244,7 +244,7 @@ Turns out 2 mm acrylic is plenty strong with this amount of screws and without a
 
 And with the acrylic window on, version 1 of the KBIC65, aka Observer65, is finally complete!
 
-<img src="img\photoshoot\desk_with_mouse.jpg">
+<img src="/assets/images/kbic65_build_log/desk_with_mouse_and_camera.jpg">
 
 ## Notes if I ever make a V2 or if someone attempts a GB
 
