@@ -11,7 +11,8 @@ To generate gerbers, the production files used to order PCBs, can be a bit tedio
 
 The kicad-export documentation has a good example, but if you are unfamiliar with GitHub Actions (like myself), there are a few tweaks that might be worth doing. You can [find my current workflow file here.](https://github.com/b-karl/KBIC65/blob/main/.github/workflows/generate_gerbers.yml)
 
-# Create a KiBot configuration
+## Create a KiBot configuration
+
 To run kicad-export we are going to need a KiBot configuration file that tells KiBot what to do. I use JLCPCB to manufacture my PCBs and the KiBot repository has [an example configuration for JLCPCB](https://github.com/INTI-CMNB/KiBot/blob/master/docs/samples/JLCPCB.kibot.yaml). However, for a mechanical keyboard and running it as a GitHub Action workflow we can simplify things a bit.
 
 ```yaml
@@ -63,7 +64,9 @@ outputs:
 ```
 
 This config generates gerbers for the layers specified above and the drill file. Normally KiBot could zip these together as well, but since the workflow artifact is naturally zipped there is no need to do this in KiBot. Store the file somewhere in your repository.
-# Create a GitHub Action workflow
+
+## Create a GitHub Action workflow
+
 Once the KiBot config is ready, we can integrate it into a workflow. First step in the workflow file is to set a name and some triggers, the example for kicad-export triggers on changes to .sch and .kicad_pcb file but I think it's good to expand it a bit. 
 
 ```yaml
@@ -96,6 +99,7 @@ on:
 ```
 
 Now we have made sure the workflow gets triggered, let's add a job!
+
 ```yaml
 jobs:      
   pcb:
@@ -115,4 +119,10 @@ jobs:
         name: pcb
         path: pcb
 ```
+
+In my project, I have three separate KiCad project and I add them as separate jobs. This way they are run independently and in parallell, saving some time making sure things are nice and compartmentalized.
+
+## Conclusion
+
+Maybe generating an automated workflow for generating gerbers feels unnecessary for hobby hardware projects since you are not likely to produce many actual prototypes. For my mechanical keyboard project I am done with v1.0 and have had it manufactured, but feel like I can start tackling some known areas of improvmement even if I will not have them prototyped any time soon. This workflow helps make these improvements accessible to other who might want to try to have it produced, and of course myself if I have more manufactured in the future.
 
