@@ -86,7 +86,7 @@ The nice!nano was super-easy to flash with a new firmware since it uses a bootlo
 
 This is my second keyboard build, my first was a KBD75v2 kit from KBDfans. For that build I got [plate foam](https://kbdfans.com/collections/keyboard-foam/products/kbdfans-module-foam) and I had enough leftover to also cover this build. The modular plate foam is most easily placed using a tweezer to avoid deforming the pieces to much before the glue touches the plate. I also tried to keep the surrounding edges clean since they will be visible from the sides.
 
-<img src="assets/images/kbic65_build_log/20210405_201929.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_201929.jpg">
 
 Unfortunately, I was a little too eager with covering everything. It turned out when I was assembling the plate and PCB  that some of the foam I had put in around the stabilizers was pressing on them, so I had to disassemble my work so far and clean up all the foam above and below the stabilizer mounts and along the stabilizer wire.
 
@@ -94,7 +94,7 @@ Unfortunately, I was a little too eager with covering everything. It turned out 
 
 To add some weight and sound dampening without impeding the wireless signal too much, I decided to add a [3 mm thick neoprene rubber](https://www.swedol.se/neoprengummipg-1001022.html) cutout between the PCB and the bottom plate. I took one of my spare PCBs and used it to draw the outline on my neoprene sheet and then I used a carpet knife and a hole puncher to create the shape.
 
-<img src="assets/images/kbic65_build_log/20210405_201821.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_201821.jpg">
 
 #### Some notes on silencing a mechanical keyboard (or controlling sound profile)
 
@@ -130,8 +130,8 @@ As they always say in keyboard build videos, start with putting rubber feet on y
 
 For screws and spacers I wanted them to be in brass, or look like golden brass at least. This was a bit tricky to find in Sweden, but I eventually learned that Amazon is a pretty good source for random screws and I picked up [this kit](https://www.amazon.se/gp/product/B087N3Z4RY/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1), giving me some flexibility if I want to play with the mounting. I attached 10 mm spacers to the bottom and then put the neoprene on for the moment. The neoprene feels like a good soft surface to rest the PCB once diodes, controller and switches are soldered in.
 
-<img src="assets/images/kbic65_build_log/20210405_201831.jpg">
-<img src="assets/images/kbic65_build_log/20210405_202032.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_201831.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_202032.jpg">
 
 ## Prepare PCB
 
@@ -144,7 +144,7 @@ To get the PCB up and running required two general steps
 
 This is essentially just a bunch of soldering and ended up like this for me:
 
-<img src="assets/images/kbic65_build_log/20210405_002633.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_002633.jpg">
 
 The tricky part, compared to soldering switches is that these joints are very visible and since the are on one long line, any inconsistencies show easily. I initially tried bending multiple diodes together when they where still in their package tape but I don't think it really worked better than just bending them one by one with my hands. This was also partially due to the footprint I selected for the diode essentially requiring the diode legs to be bent as close to the diode as possible.
 
@@ -166,8 +166,8 @@ The Durock stabilizers are designed to not require clipping so did not have to d
 
 Instead of doing the actual band-aid mod I was lazy and picked up some [KBDfans stabilizer foam stickers](https://kbdfans.com/products/kbdfans-stabilizers-foam-sticker=) when ordering some other stuff.
 
-<img src="assets/images/kbic65_build_log/20210405_204057.jpg">
-<img src="assets/images/kbic65_build_log/20210405_204042.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_204057.jpg">
+<img src="/assets/images/kbic65_build_log/20210405_204042.jpg">
 
 ### Shrink tube mod (failed/removed)
 
@@ -181,8 +181,8 @@ Used Krytox 205g0 to lube the switches since it was the best thing I had availab
 
 After adding the stabilizers and beginning to solder in the first switches I discovered that some of the plate foam I had put it was pressing on the stabilizers, both on the screws (making )
 
-<img src="assets/images/kbic65_build_log/20210407_203201.jpg">
-<img src="assets/images/kbic65_build_log/20210407_203217.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_203201.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_203217.jpg">
 
 ## Assemble plate-PCB package
 
@@ -190,11 +190,11 @@ The next step was to put together the plate, prepared PCB and all the switches. 
 
 This is pretty well covered in any build log or video, but a good trick is to start with attaching the corner switches. I then also soldered in the switches for keys with stabilizers since I wanted to make sure those keys felt okay before I continued (in case I had to remove all switches and modify the stabilizers, which I did do once).
 
-<img src="assets/images/kbic65_build_log/20210407_205555.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_205555.jpg">
 
 Once you have the corners in place, it is fairly easy to attach and solder multiple switches at ones, I did them row by row, and you end up with a plate-PCB package with switches. Almost a full keyboard now!
 
-<img src="assets/images/kbic65_build_log/20210407_215413.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_215413.jpg">
 
 ## Test without battery
 
@@ -206,11 +206,11 @@ This was the part of the build I was the least sure of how I was going to do. I 
 
 I soldered on a connector with wires to the ground and VCC pins on the back of the PCB and routed so that I could place the battery in the areas with no soldered components with legs sticking down.
 
-<img src="assets/images/kbic65_build_log/20210407_224000.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_224000.jpg">
 
 I then made a cut out in the neoprene to house the battery.
 
-<img src="assets/images/kbic65_build_log/20210407_230048.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_230048.jpg">
 
 Unfortunately I forgot to take a photo with the actual battery in place as well. I added a small piece of double sided tape on the side of the battery to keep it in place.
 
@@ -222,13 +222,13 @@ Damn, did it feel good when I paired the keyboard with my desktop and was writin
 
 This step is pretty simple, stack all the pieces you have together now and put on the final screws!
 
-<img src="assets/images/kbic65_build_log/20210407_231559.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_231559.jpg">
 
 ## Put on key caps
 
 So I got an ePBT 9009 kit for this, since my long term goal for this build is to also create a case and the idea is for it to have some 80s-90s computer vibes, like the 9009 color scheme. Also, I got the extra colored Win-key set, really love those and reminds me of using my grandfather's computers (who is also the inspiration for the glass design on the board) and want that aesthetic. Not complicated to put on keycaps, but now it is more easy to see my chosen layout.
 
-<img src="assets/images/kbic65_build_log/20210407_234048.jpg">
+<img src="/assets/images/kbic65_build_log/20210407_234048.jpg">
 
 ## Final testing
 
