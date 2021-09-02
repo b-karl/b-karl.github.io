@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 title:  "Making dithered PCB art for KiCad"
 date:   2021-05-20 14:00:00 +0100
-categories: projects mechanical-keyboard pcb
+categories: guides kicad
 excerpt: ""
 header:
     overlay_image: /assets/images/sun/pcb_bottom_4M.jpg

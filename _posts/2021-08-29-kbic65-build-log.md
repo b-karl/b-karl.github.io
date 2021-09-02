@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 title:  "KBIC65 build log"
 date:   2021-05-20 14:00:00 +0100
-categories: projects mechanical-keyboard pcb kicad github
+categories: projects mechanical-keyboards kbic65
 excerpt: ""
 ---
 

@@ -2,7 +2,7 @@
 layout: single
 title:  "Selecting components"
 date:   2020-07-31 14:00:00 +0100
-categories: projects mechanical-keyboard
+categories: projects mechanical-keyboards
 ---
 
 It is now time to pick and order parts for my keyboard. Having talked to some friends, felt around some mechanical keyboards and using the T440 keyboard as a inspiration I decided I want to build a 75% compact layout with tactile switches and generally try to make it as quiet as possible. 
